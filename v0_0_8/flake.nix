@@ -8,8 +8,8 @@
   inputs.flakeNimbleLib.inputs.nixpkgs.follows = "nixpkgs";
   
   inputs.src-stdext-v0_0_8.flake = false;
+  inputs.src-stdext-v0_0_8.ref   = "refs/tags/v0.0.8";
   inputs.src-stdext-v0_0_8.owner = "zendbit";
-  inputs.src-stdext-v0_0_8.ref   = "v0_0_8";
   inputs.src-stdext-v0_0_8.repo  = "nim.stdext";
   inputs.src-stdext-v0_0_8.type  = "github";
   
